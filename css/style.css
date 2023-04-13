@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(234, 251, 253);
+}
+
+hr{
+    width: 5%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: grey;
+
+}
+
+h1{
+    color: #66BFBf;
+    font-family: Arial;;
+}
+
+h3{
+    color: #66BFBf;
+    font-family: Arial;
+}
+
+table{
+    font-family: Arial;
+}
+
+thead{
+    color: #66BFBf;
+}
+
+a{
+    color: #66BFBf;
+    font-family: Arial;
+}
