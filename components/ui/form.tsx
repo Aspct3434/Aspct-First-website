@@ -13,7 +13,7 @@ import { cn } from '@/lib/utils';
 
 /* ---------------------------------------------------------------------------
    Shared control chrome.
-   The boundary colour clears 3:1 against both paper and card surfaces so the
+   The boundary color clears 3:1 against both paper and card surfaces so the
    control's edge is perceivable (WCAG 2.1 SC 1.4.11).
    ------------------------------------------------------------------------- */
 

@@ -90,7 +90,7 @@ export function SignUpForm() {
         <ol className="mt-8 space-y-3 rounded-xl bg-paper-2 p-6 ring-1 ring-line">
           {[
             'Connect an account (read-only, about 2 minutes)',
-            'Lumina categorises up to 24 months of history',
+            'Lumina categorizes up to 24 months of history',
             'Approve the budget and savings rule it proposes',
           ].map((step, index) => (
             <li key={step} className="flex items-start gap-3 text-[0.9375rem] text-text-2">

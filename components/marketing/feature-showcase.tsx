@@ -15,7 +15,7 @@ const rows = [
     title: 'Limits you have already proved you can live within',
     body: 'Lumina reads twelve months of your own spending and proposes a limit per category, then shows your pace through the month rather than only the damage at the end of it.',
     points: [
-      'Seasonal months are recognised, not marked as failures',
+      'Seasonal months are recognized, not marked as failures',
       'Rollover, and borrowing from next month when you decide to',
       'Move money between categories in one tap',
     ],

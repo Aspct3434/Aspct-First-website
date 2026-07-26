@@ -16,7 +16,7 @@ targets — and then maintain it. Most people quit in week two. Lumina inverts t
 reads your last twelve months, proposes the plan, and asks you to approve it. Setup is
 about four minutes and is mostly waiting for your bank.
 
-**The moat we claim.** Two things, both stated as behaviour rather than technology:
+**The moat we claim.** Two things, both stated as behavior rather than technology:
 
 1. **Automation with a floor.** Savings rules that reduce or skip themselves rather than
    overdrawing you. This is the feature that makes automation safe enough to trust, and it
@@ -99,7 +99,7 @@ financially credible without being cold; technically sophisticated without being
 | **Accent** | Citrine `#F0C458` — the "lumina" light | Used sparingly, almost entirely on ink surfaces, so it never becomes decoration. |
 | **Type** | Instrument Serif display + Instrument Sans UI | A superfamily pairing: editorial authority in the headlines, neutral clarity in the interface. |
 | **Numerals** | JetBrains Mono, only for years and clause numbers | A small technical signal; not preloaded, so it costs nothing on pages that do not use it. |
-| **Shape** | Pill buttons, 16–22px cards, 12px inputs | The pill/soft-rectangle contrast is the layout's most recognisable signature. |
+| **Shape** | Pill buttons, 16–22px cards, 12px inputs | The pill/soft-rectangle contrast is the layout's most recognizable signature. |
 | **Shadows** | Four layered levels, ink-tinted, low alpha | Warm-tinted shadows on warm paper; grey shadows would read as dirt. |
 | **Motion** | 16px travel, ≤620ms, entrance only | Motion explains a state change; it never decorates. |
 
@@ -116,10 +116,10 @@ live: crisp at every density, readable by screen readers, and incapable of going
 
 ### Tokens
 
-Declared once in `app/globals.css` under `@theme`; nothing hard-codes a colour, radius,
+Declared once in `app/globals.css` under `@theme`; nothing hard-codes a color, radius,
 shadow or easing curve.
 
-- **Colour** — paper (4 steps), ink (4), text (3 light / 3 on-ink), evergreen (11), citrine
+- **Color** — paper (4 steps), ink (4), text (3 light / 3 on-ink), evergreen (11), citrine
   (4), clay (3), iris (3), semantic positive/caution/negative each with a soft surface.
 - **Spacing** — 4px base; sections carry the vertical rhythm, not individual components.
 - **Radii** — `xs 6px` → `3xl 36px`, plus pill.
@@ -128,7 +128,7 @@ shadow or easing curve.
   for body text anywhere on the site.
 - **Motion** — three durations, three easings, one `prefers-reduced-motion` escape hatch.
 
-### Data visualisation
+### Data visualization
 
 Charts follow one discipline throughout:
 
@@ -137,13 +137,13 @@ Charts follow one discipline throughout:
 - **Nominal categories get one hue.** Bar length already encodes magnitude; a value ramp
   would double-encode it.
 - **Legend for two or more series**, plus a table-view twin on every dashboard chart, so
-  identity and value are never colour-only.
+  identity and value are never color-only.
 - **Meters carry severity in the fill, with the track a lighter step of the same ramp**, and
-  always beside a text label ("$188 left", "$41 over") so colour is never the only signal.
+  always beside a text label ("$188 left", "$41 over") so color is never the only signal.
 - **Marks are thin**: 2px lines, ≥8px markers with a 2px surface ring, hairline solid
   gridlines one step off the surface, 10% area washes.
 - **The categorical trio was validated, not eyeballed.** Evergreen `#0A8368`, clay
-  `#C05A21`, iris `#5750BE` clear the lightness band, the chroma floor, colour-vision
+  `#C05A21`, iris `#5750BE` clear the lightness band, the chroma floor, color-vision
   separation (worst adjacent CVD ΔE 9.0, normal-vision 22.8) and 3:1 contrast against the
   paper surface.
 
@@ -208,12 +208,12 @@ stakeholder might overrule them:
 
 Targeting WCAG 2.1 AA.
 
-**Colour and contrast.** Every foreground/background pair in the system was checked
+**Color and contrast.** Every foreground/background pair in the system was checked
 programmatically before any component was written: body text ≥ 4.5:1 (most pairs 5.3–16.6:1),
 UI boundaries and chart marks ≥ 3:1. Form control borders use a dedicated `--color-control`
 token at 3.5:1 against paper and 3.7:1 against white, satisfying SC 1.4.11.
 
-**Never colour-alone.** Deltas pair an arrow glyph with a sign; budget severity is stated
+**Never color-alone.** Deltas pair an arrow glyph with a sign; budget severity is stated
 in words beside every meter; chart series carry a legend and a table-view twin; validation
 errors carry an icon and text.
 

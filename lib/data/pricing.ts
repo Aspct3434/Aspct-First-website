@@ -37,7 +37,7 @@ export const plans: Plan[] = [
     cta: { label: 'Create a free account', href: '/signup/' },
     highlights: [
       'Up to 3 connected accounts',
-      'Automatic categorisation with manual overrides',
+      'Automatic categorization with manual overrides',
       'One monthly budget across all spending',
       '12 months of transaction history',
       'Weekly email digest',

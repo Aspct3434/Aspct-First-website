@@ -73,7 +73,7 @@ export const outcomeStats: Stat[] = [
   },
   {
     value: '98.6%',
-    label: 'Transactions categorised correctly after 30 days of use',
+    label: 'Transactions categorized correctly after 30 days of use',
     footnote: 'Accuracy improves as you correct the few it gets wrong.',
   },
   {
@@ -129,7 +129,7 @@ export const howItWorks: Step[] = [
   },
   {
     title: 'Lumina reads your history',
-    body: 'Up to twenty-four months of transactions are categorised, deduplicated and matched into recurring charges. You will see a first pass immediately and a settled picture within a day.',
+    body: 'Up to twenty-four months of transactions are categorized, deduplicated and matched into recurring charges. You will see a first pass immediately and a settled picture within a day.',
     detail: 'Correct anything it gets wrong once, and it learns the rule.',
     duration: 'Under 24 hours',
   },
@@ -170,9 +170,9 @@ export const features: Feature[] = [
     icon: 'layers',
   },
   {
-    id: 'categorisation',
+    id: 'categorization',
     eyebrow: 'Understanding',
-    title: 'Categorisation that learns your life, not the average one',
+    title: 'Categorization that learns your life, not the average one',
     body: 'A merchant model plus your own corrections. “Verdant Market” is groceries for you and stock for the person who runs a café — Lumina holds both without you writing rules.',
     useCase: {
       scenario: 'A weekly shop that is half groceries and half a birthday present.',
@@ -193,7 +193,7 @@ export const features: Feature[] = [
     body: 'Instead of asking what you intend to spend, Lumina shows what you have spent, flags the categories with real movement in them, and proposes limits you have already proved you can live within.',
     useCase: {
       scenario: 'December, when everything is 40% higher and every budget app declares failure.',
-      outcome: 'Seasonal months are recognised, not punished. Limits flex and rollover carries.',
+      outcome: 'Seasonal months are recognized, not punished. Limits flex and rollover carries.',
     },
     bullets: [
       'Adaptive limits with seasonal awareness',
@@ -214,7 +214,7 @@ export const features: Feature[] = [
     },
     bullets: [
       'Balance floor honoured by every automation',
-      'Skip, reduce and catch-up behaviour explained in plain language',
+      'Skip, reduce and catch-up behavior explained in plain language',
       'Pause everything from one switch',
       'A full log of every automated move',
     ],
@@ -333,7 +333,7 @@ export const certifications = [
   { name: 'GDPR & CCPA', detail: 'Data subject rights honoured in-product' },
   { name: 'PSD2 / Open Banking', detail: 'Regulated aggregation partners only' },
   { name: 'Penetration tested', detail: 'Twice yearly, summary available on request' },
-  { name: 'Bug bounty', detail: 'Open programme with published response times' },
+  { name: 'Bug bounty', detail: 'Open program with published response times' },
 ];
 
 /* --- FAQ ----------------------------------------------------------------- */
@@ -354,7 +354,7 @@ export const homeFaqs: Faq[] = [
   {
     question: 'Do I have to build a budget before I see anything useful?',
     answer:
-      'No. Lumina reads your history first and shows you a categorised picture of the last twelve months before asking you for a single number. Most people spend about four minutes on setup, mostly waiting for their bank.',
+      'No. Lumina reads your history first and shows you a categorized picture of the last twelve months before asking you for a single number. Most people spend about four minutes on setup, mostly waiting for their bank.',
   },
   {
     question: 'Will Lumina move my money without asking?',
@@ -461,19 +461,19 @@ export const team: TeamMember[] = [
     name: 'Sofia Andrade',
     role: 'Head of Design',
     initials: 'SA',
-    bio: 'Came from clinical software, where a confusing screen has consequences. Runs the research programme that reviews every release.',
+    bio: 'Came from clinical software, where a confusing screen has consequences. Runs the research program that reviews every release.',
   },
   {
     name: 'Kwame Boateng',
     role: 'Head of Security',
     initials: 'KB',
-    bio: 'Former financial-sector penetration tester. Owns our SOC 2 programme and the bug bounty, and reads every report personally.',
+    bio: 'Former financial-sector penetration tester. Owns our SOC 2 program and the bug bounty, and reads every report personally.',
   },
   {
     name: 'Yuki Tanabe',
     role: 'Head of Data Science',
     initials: 'YT',
-    bio: 'Works on categorisation and forecasting. Publishes our accuracy numbers, including the months they go down.',
+    bio: 'Works on categorization and forecasting. Publishes our accuracy numbers, including the months they go down.',
   },
   {
     name: 'Ruth Ellery',
@@ -484,10 +484,10 @@ export const team: TeamMember[] = [
 ];
 
 export const milestones = [
-  { year: '2021', title: 'Lumina starts as a spreadsheet', body: 'Mara and Ezra rebuild the household budget spreadsheet they had each maintained for years, and realise the hard part was never the arithmetic — it was keeping it current.' },
-  { year: '2022', title: 'First 500 members', body: 'A private beta with read-only connections to four banks. Categorisation accuracy starts at 71%. Members correct it 14,000 times, and it starts to learn.' },
-  { year: '2023', title: 'Automation, with a floor', body: 'Autosave rules ship after nine months of work on the one behaviour that mattered: never overdrawing someone to hit a savings target.' },
-  { year: '2024', title: 'SOC 2 Type II and Household', body: 'The security programme is independently audited. Household mode arrives after two years of requests from couples with separate accounts and shared bills.' },
+  { year: '2021', title: 'Lumina starts as a spreadsheet', body: 'Mara and Ezra rebuild the household budget spreadsheet they had each maintained for years, and realize the hard part was never the arithmetic — it was keeping it current.' },
+  { year: '2022', title: 'First 500 members', body: 'A private beta with read-only connections to four banks. Categorization accuracy starts at 71%. Members correct it 14,000 times, and it starts to learn.' },
+  { year: '2023', title: 'Automation, with a floor', body: 'Autosave rules ship after nine months of work on the one behavior that mattered: never overdrawing someone to hit a savings target.' },
+  { year: '2024', title: 'SOC 2 Type II and Household', body: 'The security program is independently audited. Household mode arrives after two years of requests from couples with separate accounts and shared bills.' },
   { year: '2025', title: 'Forecasting for irregular income', body: 'Confidence ranges replace single-line projections, built with 300 freelance and commission-paid members.' },
   { year: '2026', title: '38,000 members, still subscription-funded', body: 'No advertising, no data sales, no acquisition by a bank. The pledge is written into our terms.' },
 ];
@@ -495,7 +495,7 @@ export const milestones = [
 export const openRoles = [
   { title: 'Senior Backend Engineer, Ledger', location: 'Remote (US / EU)', team: 'Engineering' },
   { title: 'Product Designer, Automation', location: 'San Francisco or remote', team: 'Design' },
-  { title: 'Data Scientist, Categorisation', location: 'Remote (EU)', team: 'Data' },
+  { title: 'Data Scientist, Categorization', location: 'Remote (EU)', team: 'Data' },
   { title: 'Member Support Specialist', location: 'Remote (US)', team: 'Support' },
 ];
 

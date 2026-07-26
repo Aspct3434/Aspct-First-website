@@ -12,7 +12,7 @@ const assurances = [
 
 export function FinalCta({
   title = 'See your money the way Lumina sees it.',
-  body = 'Connect one account and you will have a categorised picture of the last twelve months before the kettle boils.',
+  body = 'Connect one account and you will have a categorized picture of the last twelve months before the kettle boils.',
 }: {
   title?: string;
   body?: string;

@@ -46,7 +46,7 @@ const softwareLd = {
   })),
   featureList: [
     'Automatic account aggregation',
-    'AI transaction categorisation',
+    'AI transaction categorization',
     'Adaptive budgets',
     'Automated savings rules',
     'Subscription and price-rise detection',

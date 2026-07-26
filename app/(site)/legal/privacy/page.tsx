@@ -67,7 +67,7 @@ const sections: LegalSection[] = [
     body: (
       <ul>
         <li>
-          <strong>To provide the service</strong> — categorising transactions, calculating budgets
+          <strong>To provide the service</strong> — categorizing transactions, calculating budgets
           and forecasts, and running the automations you create. Legal basis: performance of a
           contract.
         </li>
@@ -76,7 +76,7 @@ const sections: LegalSection[] = [
           basis: legitimate interests.
         </li>
         <li>
-          <strong>To improve accuracy</strong> — your corrections improve your own categorisation
+          <strong>To improve accuracy</strong> — your corrections improve your own categorization
           model. Legal basis: legitimate interests, with an opt-out in Settings.
         </li>
         <li>
@@ -92,8 +92,8 @@ const sections: LegalSection[] = [
     body: (
       <>
         <p>
-          Categorisation, recurring-charge detection and forecasting run on models we operate
-          ourselves. Your data is used to personalise <strong>your</strong> model. It is not used to
+          Categorization, recurring-charge detection and forecasting run on models we operate
+          ourselves. Your data is used to personalize <strong>your</strong> model. It is not used to
           train a shared model that serves other customers, and it is not sent to third-party
           model providers.
         </p>

@@ -88,7 +88,7 @@ const sections: LegalSection[] = [
     body: (
       <>
         <p>
-          You own everything you put into Lumina. You grant us only the licence needed to run the
+          You own everything you put into Lumina. You grant us only the license needed to run the
           service for you.
         </p>
         <p>

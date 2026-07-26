@@ -8,7 +8,7 @@ type Severity = 'ontrack' | 'watch' | 'over' | 'goal';
  *
  * The fill carries severity and the unfilled track is a lighter step of the
  * same ramp, so state reads across the whole bar rather than only where the
- * fill ends. Severity is never colour-alone: the caller always renders a label
+ * fill ends. Severity is never color-alone: the caller always renders a label
  * ("$188 left", "23 days ahead") beside it, and `valueText` carries the same
  * information to assistive technology.
  */

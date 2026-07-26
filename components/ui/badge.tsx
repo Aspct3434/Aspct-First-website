@@ -39,8 +39,8 @@ export function Badge({
 }
 
 /**
- * A signed change. Direction is carried by an arrow glyph as well as by colour,
- * so the meaning never depends on colour alone.
+ * A signed change. Direction is carried by an arrow glyph as well as by color,
+ * so the meaning never depends on color alone.
  */
 export function DeltaPill({
   direction,

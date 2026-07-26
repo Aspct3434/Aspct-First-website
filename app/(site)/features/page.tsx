@@ -58,7 +58,7 @@ const majorFeatures = [
   { id: 'forecast', vignette: <ForecastVignette /> },
 ] as const;
 
-const secondaryIds = ['accounts', 'categorisation', 'goals', 'ask'] as const;
+const secondaryIds = ['accounts', 'categorization', 'goals', 'ask'] as const;
 
 const jumpLinks = [
   { href: '#budgets', label: 'Budgets' },

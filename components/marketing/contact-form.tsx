@@ -71,7 +71,7 @@ function validate(values: Values): Partial<Record<FieldName, string>> {
 /**
  * Lead form with client-side validation.
  *
- * Behaviour, in order of how much it matters:
+ * Behavior, in order of how much it matters:
  * 1. Nothing is marked invalid before the first submit — being told off while
  *    still typing is the most common way forms feel hostile.
  * 2. After a failed submit, a summary names each problem and links to it, and

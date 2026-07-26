@@ -11,7 +11,7 @@ export type LegendEntry = { label: string; color: string; shape?: 'line' | 'rect
  * things the charts themselves must not be trusted to remember:
  *
  * 1. a legend whenever two or more series are plotted (identity is never
- *    colour-alone);
+ *    color-alone);
  * 2. a table view twin, so every value is reachable without hovering;
  * 3. a caption marking the figures as demonstration data.
  */
@@ -119,7 +119,7 @@ export function ChartFrame({
   );
 }
 
-/** The table twin. Same numbers, no colour dependency, fully keyboard-reachable. */
+/** The table twin. Same numbers, no color dependency, fully keyboard-reachable. */
 export function DataTable({
   columns,
   rows,

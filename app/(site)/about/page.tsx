@@ -20,7 +20,7 @@ export const metadata: Metadata = pageMetadata({
 
 const commitments = [
   'We do not sell, rent or share your financial data — written into our terms of service.',
-  'We publish categorisation accuracy every quarter, including the quarters it falls.',
+  'We publish categorization accuracy every quarter, including the quarters it falls.',
   'We will not be acquired by a lender or an advertising business without giving members 90 days to export and leave.',
   'Every automated transfer is logged with the reason it ran, and can be reversed for 24 hours.',
 ];

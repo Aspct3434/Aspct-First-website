@@ -134,7 +134,7 @@ export function ButtonLink({
   );
 }
 
-/** Text link with the underline behaviour used across long-form copy. */
+/** Text link with the underline behavior used across long-form copy. */
 export function TextLink({
   href,
   children,

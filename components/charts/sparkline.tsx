@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
  * 12-point trend line for a stat tile.
  *
  * Decorative in the strict sense — every value it plots is also in the chart it
- * summarises — so it is `aria-hidden` and the tile's own label and delta carry
+ * summarizes — so it is `aria-hidden` and the tile's own label and delta carry
  * the meaning. The run reads in the de-emphasis hue with the current point in
  * the accent, per the stat-tile contract.
  */
